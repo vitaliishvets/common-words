@@ -56,5 +56,27 @@
 <p><code>narrow</code>&nbsp;&mdash; узкий</p>
 <p><code>wide</code>&nbsp;&mdash; широкий</p>
 <h2>Разное</h2>
-<p><code></code>&nbsp;&mdash; </p>
+<p><code>search</code>&nbsp;&mdash; поиск</p>
+<p><code>socials</code>&nbsp;&mdash; блок иконок соцсетей</p>
+<p><code>advertisement</code>, <code>adv</code>, <code>commercial</code>, <code>promo</code>&nbsp;&mdash; рекламный блок (режутся Адблоком, не рекомендуется использовать такие классы для блоков с внутренней рекламой)</p>
+<p><code>features</code>, <code>benefits</code>&nbsp;&mdash; список основных особенностей товара, услуги</p>
+<p><code>slider</code>, <code>carousel</code>&nbsp;&mdash; слайдер, интерактивный элемент с прокруткой содержимого</p>
+<p><code>pagination</code>&nbsp;&mdash; постраничная навигация</p>
+<p><code>user</code>, <code>author</code>&nbsp;&mdash; пользователь, автор записи или комментария</p>
+<p><code>meta</code>&nbsp;&mdash; блок с дополнительной информацией, например, блок тегов и даты в посте</p>
+<p><code>cart</code>, <code>basket</code>&nbsp;&mdash; корзина</p>
+<p><code>breadcrumbs</code>&nbsp;&mdash; навигационная цепочка, «хлебные крошки»</p>
+<p><code>more</code>, <code>all</code>&nbsp;&mdash; ссылка на полную информацию</p>
+<p><code>modal</code>&nbsp;&mdash; модальное (диалоговое) окно</p>
+<p><code>popup</code>&nbsp;&mdash; всплывающее окно</p>
+<p><code>tooltip</code>, <code>tip</code>&nbsp;&mdash; всплывающее подсказки</p>
+<p><code>preview</code>&nbsp;&mdash; анонс, отрывок, например новости или поста, может состоять из заголовка, описания и картинки. Предполагается ссылка на полную версию</p>
+<p><code>overlay</code>&nbsp;&mdash; перекрывающий слой, например, для затемнения изображений или создания модальных окон</p>
 <h2>Состояния</h2>
+<p><code>active</code>, <code>current</code>&nbsp;&mdash; активный элемент, например, текущий пункт меню</p>
+<p><code>visible</code>&nbsp;&mdash; видимый элемент</p>
+<p><code>hidden</code>&nbsp;&mdash; скрытый элемент</p>
+<p><code>error</code>&nbsp;&mdash; статус ошибки</p>
+<p><code>warning</code>&nbsp;&mdash; статус предупреждения</p>
+<p><code>success</code>&nbsp;&mdash; статус успешного выполнения задачи</p>
+<p><code>pending</code>&nbsp;&mdash; состояние ожидания, например, перед сменой статуса на error или success</p>
