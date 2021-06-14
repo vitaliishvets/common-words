@@ -1,10 +1,16 @@
-<h1>Слова, часто используемые в CSS-классах</h1>
-<h2>Изображения</h2>
-<p><code>image</code>, <code>img</code>, <code>picture</code>, <code>pic</code>&nbsp;&mdash; картинка</p>
-<p><code>icon</code>&nbsp;&mdash; иконка</p>
-<p><code>logo</code>&nbsp;&mdash; логотип</p>
-<p><code>userpic</code>, <code>avatar</code>&nbsp;&mdash; юзерпик, маленькая картинка пользователя</p>
-<p><code>thumbnail</code>, <code>thumb</code>&nbsp;&mdash; миниатюра, уменьшенное изображение</p>
+#Слова, часто используемые в CSS-классах
+## Изображения
+
+`image`, `img`, `picture`, `pic` — картинка
+
+`icon` — иконка
+
+`logo` — логотип
+
+`userpic`, `avatar` — юзерпик, маленькая картинка пользователя
+
+`thumbnail`, `thumb` — миниатюра, уменьшенное изображение
+
 <h2>Текст</h2>
 <p><code>title</code>, <code>subject</code>, <code>heading</code>, <code>headline</code>, <code>caption</code>&nbsp;&mdash; заголовок</p>
 <p><code>subtitle</code>&nbsp;&mdash; подзаголовок</p>
