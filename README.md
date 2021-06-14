@@ -162,3 +162,190 @@
 
 `pending` — состояние ожидания, например, перед сменой статуса на error или success
 
+## Примеры использования
+
+### Простой список
+
+```html
+<ul class="list">
+    <li class="item">Первое</li>
+    <li class="item">Второе</li>
+    <li class="item">Третье</li>
+</ul>
+```
+
+### Картинка пользователя (юзерпик)
+
+```html
+<div class="user">
+    <img class="user__img" src="userpic.png" alt="Василий Анатольевич">
+    <a class="user__link" href="#">Василий Анатольевич</a>
+</div>
+```
+
+### Галерея
+
+```html
+<div class="gallery">
+    <ul class="gallery__list">
+        <li class="gallery__item">
+            <img class="gallery__img" src="flowers.jpg" alt="Весенние тюльпаны">
+        </li>
+        <li class="gallery__item">
+            <img class="gallery__img" src="trees.jpg" alt="Деревья в ботаническом саду">
+        </li>
+    </ul>
+</div>
+```
+
+### Навигация
+
+```html
+<nav class="nav">
+    <a class="nav__link nav__link--active">Главная</a>
+    <a class="nav__link" href="#">Вторая</a>
+    <a class="nav__link" href="#">Третья</a>
+    <a class="nav__link" href="#">Четвертая</a>
+    <a class="nav__link" href="#">Пятая</a>
+</nav>
+```
+
+```html
+<nav class="nav">
+    <ul class="nav__list">
+        <li class="nav__item nav__item--current">
+            <a class="nav__link">Главная</a>
+        </li>
+        <li class="nav__item">
+            <a class="nav__link" href="#">Статьи</a>
+        </li>
+        <li class="nav__item">
+            <a class="nav__link" href="#">Фотогалерея</a>
+        </li>
+        <li class="nav__item">
+            <a class="nav__link" href="#">Контакты</a>
+        </li>
+    </ul>
+</nav>
+```
+
+### Виджет в боковой колонке
+
+```html
+<div class="widget">
+    <h4 class="widget__title">Манная каша на завтрак</h4>
+
+    <div class="widget__content">
+        <p>Для приготовления каши рано утром нам понадобится...</p>
+
+        <a class="widget__link" href="#">Читать дальше...</a>
+    </div>
+</div>
+```
+
+### Блок новостей
+
+```html
+<div class="news">
+    <h3 class="news__title">Вчерашние новости</h3>
+
+    <ul class="news__list">
+        <!-- к классу элемента добавляем класс блока,
+             чтобы создать новое пространство имён -->
+        <li class="news__item item-news">
+            <h4 class="item-news__title">Соревнования среди воблы по конькобежному спорту</h4>
+            <div class="item-news__text">
+              <p>Победила команда килек из Петрозаводска</p>
+
+              <a href="#" class="item-news__link">Читать дальше</a>
+            </div>
+        </li>
+
+        <li class="news__item item-news">
+            <h4 class="item-news__title">Учёные уточнили роль напильника в уходе за ногтями</h4>
+            <div class="item-news__text">
+              <p>Британские учёные высоко оценили вклад
+                напильника в отращивание полутораметровых ногтей.</p>
+
+              <a href="#" class="item-news__link">Не читать дальше</a>
+            </div>
+        </li>
+    </ul>
+</div>
+```
+
+### Статья или пост в блоге (простой вариант)
+
+```html
+<article class="article">
+    <h3 class="article__title">К чему мы прикасаемся - расцветает</h3>
+    <time class="article__datetime">1 мая, 2021</time>
+
+    <div class="article__author author-article">
+        <img class="author-article__img" src="userpic.png" alt="Клешня Андреевна">
+        <a class="author-article__link" href="#">Кто-то, кто похож на автора</a>
+        <div class="author-article__desc">Описание автора</div>
+    </div>
+
+    <div class="article__content">
+        lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum
+        lorem ipsum lorem ipsum lorem ipsum lorem ipsum lorem ipsum 
+        lorem ipsum lorem ipsum lorem ipsum lorem ipsum 
+    </div>
+</article>
+```
+
+### Статья или пост в блоге (сложный вариант)
+
+```html
+<article class="entry">
+    <header class="entry__header">
+        <h3 class="entry__title title-entry">
+            <a class="title-entry__link" href="#">Резиновые уточки как способ самопознания</a>
+        </h3>
+
+        <time class="entry__datetime">1 апреля, 2021</time>
+    </header>
+
+    <div class="entry__author author-entry">
+        <img class="author-entry__img" src="userpic.png" alt="Братья Стругацкие">
+
+        <a class="author-entry__link" href="#">Брат Стругацкий</a>
+    </div>
+
+    <div class="entry__content">
+        К 1963 году братья-соавторы, по собственным словам, осознали, 
+        что им «неинтересно» писать рассказы, и более не обращались к этому жанру.
+    </div>
+
+    <div class="entry__tags tags-entry">
+        <h4 class="tags-entry__title">Метки</h4>
+
+        <ul class="tags-entry__list">
+            <li class="tags-entry__item">
+                <a class="tags-entry__link" href="#">хоровод своими руками</a>
+            </li>
+            <li class="tags-entry__item">
+                <a class="tags-entry__link" href="#">фарфоровые тапки</a>
+            </li>
+            <li class="tags-entry__item">
+                <a class="tags-entry__link" href="#">гуталин в кулинарии</a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="entry__actions actions-entry">
+        <ul class="actions-entry__list">
+            <li class="actions-entry__item actions-entry__item--read">
+                <a class="actions-entry__link" href="#">238 ответов</a>
+            </li>
+            <li class="actions-entry__item actions-entry__item--write">
+                <a class="actions-entry__link" href="#">Написать в спортлото</a>
+            </li>
+            <li class="actions-entry__item actions-entry__item--share">
+                <a class="actions-entry__link" href="#">Поделиться</a>
+            </li>
+        </ul>
+    </div>
+</article>
+```
