@@ -1,0 +1,54 @@
+# Сниппеты (готовые шаблоны кода)
+
+## Базовый SEO шаблон
+```html
+<!DOCTYPE html>
+<html lang="ru"><!-- uk - украинский язык -->
+    <head>
+
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <meta http-equiv="x-ua-compatible" content="ie=edge">
+
+        <!-- МЕТА -->
+        <title>Заголовок</title>
+        <meta name="description" content="описание не длинее 155 символов" />
+
+        <!-- open graph Facebook-->
+        <meta property="og:title" content="Заголовок" />
+        <meta property="og:type" content="website" />
+        <!-- если сайт многоязычный -->
+        <!-- <meta property="og:locale" content="ru_RU"> -->
+        <meta property="og:url" content="http://localhost.my" />
+        <!-- не меньше 600х315, не более 8Мб -->
+        <meta property="og:image" content="http://localhost.my/img/og_cover.jpg" />
+        <meta property="og:description" content="описание не длинее 155 символов" />
+        <meta property="fb:admins" content="Facebook ID" />
+
+        <!-- Twitter -->
+        <meta name="twitter:card" content="summary_large_image">
+        <meta name="twitter:site" content="@ник_компании_в_твиттере">
+        <meta name="twitter:title" content="Заголовок">
+        <meta name="twitter:description" content="описание не длинее 155 символов">
+        <meta name="twitter:creator" content="@ник_в_твиттере">
+        <!-- картинка не меньше 280х150, не более 1Мб -->
+        <meta name="twitter:image" content="http://localhost.my/img/tw_cover.jpg">
+
+        <!-- G+ / Pinterest -->
+        <meta itemprop="name" content="Заголовок">
+        <meta itemprop="description" content="описание не длинее 155 символов">
+        <meta itemprop="image" content="http://localhost.my/img/g_cover.jpg">
+
+        <!-- Google authorship -->
+        <link rel="author" href="https://plus.google.com/[Google+_Profile]/posts"/>
+        <link rel="publisher" href="https://plus.google.com/[Google+_Page_Profile]"/>
+
+        <!-- фавиконы и иконки сайта -->
+        <link rel="apple-touch-icon" href="apple-touch-icon.png">
+
+    </head>
+    <body>
+
+    </body>
+</html>
+```
