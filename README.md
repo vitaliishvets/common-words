@@ -353,3 +353,65 @@
     </div>
 </article>
 ```
+
+### Разметка страницы
+
+```html
+<!-- Шапка сайта -->
+<header class="site-header">
+    <h1 class="site-header__title">Название сайта</h1>
+
+    <nav class="site-header__nav site-nav">
+        <a href="#" class="site-nav__link">О продукте</a>
+        <a href="#" class="site-nav__link">О погоде</a>
+        <a href="#" class="site-nav__link">Ещё о чём-то</a>
+    </nav>
+</header>
+
+<!-- Главное содержимое страницы -->
+<main class="site-main">
+    <!-- Разделы главного содержимого -->
+    <section class="features">
+        <h2 class="features__title">Преимущества</h2>
+
+        <ul class="features__list">
+            <li class="features__item">Какие мы клёвые</li>
+            <li class="features__item">Какие мы клёвые по-другому</li>
+            <li class="features__item">Какие мы клёвые ещё по какому-то</li>
+            [...]
+        </ul>
+    </section>
+
+    <section class="prices">
+        <h2 class="prices__title">Тарифы</h2>
+
+        <ul class="prices__list">
+            <li class="prices__item">Тариф 1</li>
+            <li class="prices__item">Тариф 2</li>
+            <li class="prices__item">Тариф 3</li>
+            [...]
+        </ul>
+    </section>
+</main>
+
+<!-- Боковая колонка -->
+<aside class="site-aside">
+    <div class="widget">
+        <h3 class="widget__title">Как мы отдыхаем?</h3>
+        <div class="widget__text">Читайте в нашей новой книге «Никак»</div>
+    </div>
+</aside>
+
+<!-- Подвал сайта -->
+<footer class="site-footer">
+    <div class="site-footer__socials socials">
+        <a href="#" class="socials__link socials__link--tw">Twitter</a>
+        <a href="#" class="socials__link socials__link--fb">Facebook</a>
+        <a href="#" class="socials__link socials__link--ok">Одноклассники</a>
+    </div>
+
+    <div class="site-footer__copyright copyright ">
+        Сделано <a href="#" class="copyright__link">пятой точкой</a>
+    </div>
+</footer>
+```
